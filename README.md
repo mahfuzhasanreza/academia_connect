@@ -1,8 +1,8 @@
 # academia_connect
 
-- STEP-1: Open htdocs folder
-- STEP-2: Open in Terminal
-- STEP-3: Copy and Paste this line in Terminal
+- Step-1: Open htdocs folder
+- Step-2: Open in Terminal
+- Step-3: Copy and Paste this line in Terminal
 ```c
 git clone https://github.com/mahfuzhasanreza/academia_connect.git
 ```
