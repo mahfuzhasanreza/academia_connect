@@ -12,6 +12,7 @@
 body{
   background: url(http://wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg) no-repeat center fixed;
   background-size: cover;
+  background-color: #080710;
 }
 
 .container{
@@ -110,12 +111,12 @@ body{
       <form method="post" autocomplete="on">
         <!--First name-->
     		<div class="box">
-          <label for="firstName" class="fl fontLabel"> First Name: </label>
+          <label for="fullName" class="fl fontLabel"> Full Name: </label>
     			<div class="new iconBox">
             <i class="fa fa-user" aria-hidden="true"></i>
           </div>
     			<div class="fr">
-    					<input type="text" name="firstName" placeholder="First Name"
+    					<input type="text" name="FullName" placeholder="Full Name"
               class="textBox" autofocus="on" required>
     			</div>
     			<div class="clr"></div>
@@ -123,13 +124,13 @@ body{
     		<!--First name-->
 
 
-        <!--Second name-->
+        <!--user name-->
     		<div class="box">
-          <label for="secondName" class="fl fontLabel"> Seconed Name: </label>
+          <label for="userName" class="fl fontLabel"> User Name: </label>
     			<div class="fl iconBox"><i class="fa fa-user" aria-hidden="true"></i></div>
     			<div class="fr">
-    					<input type="text" required name="secondName"
-              placeholder="Last Name" class="textBox">
+    					<input type="text" required name="UserName"
+              placeholder="user Name" class="textBox">
     			</div>
     			<div class="clr"></div>
     		</div>
@@ -173,10 +174,14 @@ body{
 
     		<!---Gender----->
     		<div class="box radio">
-          <label for="gender" class="fl fontLabel"> Gender: </label>
-    				<input type="radio" name="Gender" value="Male" required> Male &nbsp; &nbsp; &nbsp; &nbsp;
-    				<input type="radio" name="Gender" value="Female" required> Female
-    		</div>
+          <label for="type" class="fl fontLabel"> What's your role: </label>
+    				<input type="radio" name="type" value="Student" required> Student &nbsp; &nbsp; &nbsp; &nbsp;
+    				<input type="radio" name="type" value="Teacher" required> Teacher &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="type" value="Club manager" required> Club manager &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="type" value="Gym manager" required> Gym manager &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="type" value="Canteen Stuff" required> Canteen stuff &nbsp; &nbsp; &nbsp; &nbsp;
+    				<input type="radio" name="type" value="Shuttle driver" required> Shuttle driver
+    		</div><br><br><br>
     		<!---Gender--->
 
 
@@ -189,7 +194,7 @@ body{
 
 
     		<!---Submit Button------>
-    		<div class="box" style="background: #2d3e3f">
+    		<div class="box " style="background: #2d3e3f">
     				<input type="Submit" name="Submit" class="submit" value="SUBMIT">
     		</div>
     		<!---Submit Button----->
