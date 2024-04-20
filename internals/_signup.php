@@ -53,7 +53,7 @@ if (isset($_SESSION["user"])) {
                 array_push($errors, "Password does not match");
             }
 
-            require_once "database.php";
+            require_once "_dbconnect.php";
             $sql = "SELECT * FROM users WHERE email = '$email'";
             $result = mysqli_query($conn, $sql);
             $rowCount = mysqli_num_rows($result);
@@ -87,7 +87,7 @@ if (isset($_SESSION["user"])) {
 
         }
         ?>
-        <form action="register.php" method="post">
+        <form action="/academia_connect/internals/_signup.php" method="post">
             <div class="form-group">
                 <input type="text" class="form-control" name="username" placeholder="Username">
             </div>
