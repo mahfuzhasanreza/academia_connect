@@ -47,8 +47,8 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <button class="btn btn-success" type="submit">Search</button>
         </form>
         <div class="mx-2">
-            <button class="btn btn-outline-success"  data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
-            <button class="btn btn-outline-success"  data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+            <a href="_login.php" class="btn btn-outline-success">Login</a>
+            <a href="_signup.php" class="btn btn-outline-success">Signup</a>
       </div>
        
     </div>
@@ -56,7 +56,5 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 </nav>
 ';
 
-include 'internals/_loginModal.php';
-include 'internals/_signupModal.php';
 
 ?>
