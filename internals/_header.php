@@ -47,7 +47,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <button class="btn btn-success" type="submit">Search</button>
         </form>
         <div class="mx-2">
-            <a href="internals/_login.php" class="btn btn-outline-success">Login</a>
+            <a href="internals/login.php" class="btn btn-outline-success">Login</a>
             <a href="internals/_signup.php" class="btn btn-outline-success">Signup</a>
       </div>
        

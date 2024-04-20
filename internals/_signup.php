@@ -72,7 +72,7 @@ if (isset($_SESSION["user"])) {
                     echo "<div class='alert alert-danger'>$error</div>";
                 }
             } else {
-                $sql = "INSERT INTO users (username, full_name, email, password, role) VALUES ( ?, ?, ?, ?, ? )";
+                $sql = "INSERT INTO users (username, fullname, email, password, role) VALUES ( ?, ?, ?, ?, ? )";
                 $stmt = mysqli_stmt_init($conn);
                 $prepareStmt = mysqli_stmt_prepare($stmt, $sql);
                 if ($prepareStmt) {
